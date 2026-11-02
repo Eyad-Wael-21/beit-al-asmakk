@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/beit-al-asmakk/', // <--- أُضيف هنا بالاسم الصحيح للمستودع
+  base: '/beit-al-asmakk/',
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
